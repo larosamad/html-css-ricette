@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav{
+    padding: 15px;
+}
+
+nav a{
+    color: #353535;
+    font-weight: bold;
+    padding-right: 20px;
+    transition: color 0.5s;
+}
+
+nav a:hover{
+    color: rgb(187, 69, 0);
+}
+
+header{
+    background-image: url(../../assets/img/sfondo.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hgroup{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hgroup div{
+    padding: 12px 15px;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(54, 54, 54);
+    color: white;
+}
+
+hgroup div:hover{
+    background-color: #eb4b3f;
+    cursor: pointer;
+    transition: background-color 1.5s;
+
+}
+
+.category{
+    margin: 50px 20px;
+}
+
+.category article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+}
+
+article img{
+    border-radius: 8px;
+}
+
+article a{
+    width: 100px;
+    display: block;
+}
+
+.go-link{
+    padding: 12px 15px;
+    border: 1px solid #eb4b3f;
+    background-color: white;
+    color: #eb4b3f;
+    border-radius: 4px;
+    width: 100px;
+    transition: background-color 1.5s;
+
+}
+
+.go-link:hover{
+    background-color: #eb4b3f;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: background-color 1.5s;
+    transition: color 0.2s;
+}
+
+h3{
+    color: rgb(56, 56, 56);
+    font-weight: 700;
+}
+
+#collections{
+    background-color: #2D3E50;
+    color: white;
+    padding: 15px 20px 50px 20px;
+}
+
+#collection-flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#collection-flex article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #34495E;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+/* 
+#collections img{
+    width: 100%;
+    height: auto;
+} */
+
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

@@ -76,8 +76,8 @@ hgroup div:hover{
 .category article{
     display: flex;
     justify-content: space-between;
-    gap: 25px;
     align-items: center;
+    gap: 25px;
 }
 
 article img{
